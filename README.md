@@ -1,17 +1,18 @@
 ## 1. JVM 메모리 구조 정리
 
 ┌───────────────┐
-│  Method Area  │
+│ Method Area │
 ├───────────────┤
-│     Heap      │  ← (비선형/리전형, GC 관리)
+│ Heap │ ← (비선형/리전형, GC 관리)
 ├───────────────┤
-│   Stack #1    │  ← (선형, 스레드별)
-│   Stack #2    │
-│   ...         │
+│ Stack #1 │ ← (선형, 스레드별)
+│ Stack #2 │
+│ ... │
 ├───────────────┤
-│ PC Register   │
-│ Native Stack  │
+│ PC Register │
+│ Native Stack │
 └───────────────┘
+
 Stack: 선형 메모리 구조, 메서드 호출 시 프레임이 쌓이고 사라짐
 Heap: 비선형/리전형 메모리 구조, 객체와 배열 저장, GC(G1 GC 등) 관리
 Method Area: 클래스 정보, static 변수 등 저장
