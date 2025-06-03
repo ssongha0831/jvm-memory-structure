@@ -1,3 +1,7 @@
+/*
+송하연
+이론 정리 : https://github.com/ssongha0831/jvm-memory-structure/edit/main/README.md
+ */
 package com.hayeon.jvm;
 
 interface Coffee {

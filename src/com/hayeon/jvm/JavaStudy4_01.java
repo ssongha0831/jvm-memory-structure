@@ -1,3 +1,7 @@
+/*
+송하연
+메모리 구조 정리 : https://github.com/ssongha0831/jvm-memory-structure/edit/main/README.md
+*/
 package com.hayeon.jvm;
 
 public class JavaStudy4_01 {
